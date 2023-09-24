@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "remine-proxy"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bitstring = "^4.1.2"
+cached-property = "^1.5.2"
+twisted = "^23.8.0"
+cryptography = "^41.0.4"
+pyopenssl = "^23.2.0"
+service-identity = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
